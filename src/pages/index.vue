@@ -1,19 +1,5 @@
 <script setup lang="ts">
-const maisonsListe: {
-    adresse: string;
-    collectionId: string;
-    collectionName: string;
-    created: string;
-    favoris: boolean;
-    id: string;
-    image: string;
-    nbChambres: number;
-    nbSdb: number;
-    nomMaison: string;
-    prix: number;
-    surface: number;
-    updated: string;
-}[]=[
+const maisonsListe: MaisonRecord[]=[
   {
     "adresse": "11 rue du Journal de Mickey, Montbéliard",
     "collectionId": "5ewh9oouv30zp6e",
@@ -60,6 +46,21 @@ const maisonsListe: {
     "updated": "2024-05-02 08:33:33.384Z"
   }
 ]
+interface MaisonRecord {
+  adresse: string;
+  collectionId: string;
+  collectionName: string;
+  created: string;
+  favoris: boolean;
+  id: string;
+  image: string;
+  nbChambres: number;
+  nbSdb: number;
+  nomMaison: string;
+  prix: number;
+  surface: number;
+  updated: string;
+}
 console.log(maisonsListe)
 </script>
 
