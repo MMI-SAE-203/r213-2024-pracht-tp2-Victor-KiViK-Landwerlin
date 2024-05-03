@@ -9,6 +9,7 @@ onErrorCaptured((err, instance, info) => {
 </script>
 
 <template>
+  <MaisonCard v-bind="maisonsListe[0]" />
   <header>
     <nav>
       <ul>

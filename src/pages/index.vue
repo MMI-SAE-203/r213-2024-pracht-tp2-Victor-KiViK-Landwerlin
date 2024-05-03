@@ -1,5 +1,6 @@
 <script setup lang="ts">
-import type { MaisonRecord } from '@/types'
+import MaisonCard from '@/components/MaisonCard.vue';
+import type { MaisonRecord } from '@/types';
 const maisonsListe: MaisonRecord[]=[
   {
     "adresse": "11 rue du Journal de Mickey, Montbéliard",
@@ -52,4 +53,5 @@ console.log(maisonsListe)
 
 <template>
   <h1 class="text-2xl">Bonjour monde !</h1>
+  <MaisonCard nomMaison="Super" :prix= 100000 adresse="11 rue jsp, Marseille" :surface="100" :nbChambres="5" :nbSdb="2"/>
 </template>
