@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import type { MaisonRecord } from '@/types'
 const maisonsListe: MaisonRecord[]=[
   {
     "adresse": "11 rue du Journal de Mickey, Montbéliard",
@@ -46,7 +47,6 @@ const maisonsListe: MaisonRecord[]=[
     "updated": "2024-05-02 08:33:33.384Z"
   }
 ]
-import type { MaisonRecord } from '@/types'
 console.log(maisonsListe)
 </script>
 
