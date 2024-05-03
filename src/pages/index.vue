@@ -46,21 +46,7 @@ const maisonsListe: MaisonRecord[]=[
     "updated": "2024-05-02 08:33:33.384Z"
   }
 ]
-interface MaisonRecord {
-  adresse: string;
-  collectionId: string;
-  collectionName: string;
-  created: string;
-  favoris: boolean;
-  id: string;
-  image: string;
-  nbChambres: number;
-  nbSdb: number;
-  nomMaison: string;
-  prix: number;
-  surface: number;
-  updated: string;
-}
+import type { MaisonRecord } from '@/types'
 console.log(maisonsListe)
 </script>
 
