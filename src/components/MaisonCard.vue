@@ -11,7 +11,6 @@ defineProps<MaisonRecord>()
     <div
       class="w-[352px] h-[200px] absolute left-[-0.5px] top-[-0.5px] rounded-tl-lg rounded-tr-lg bg-gray-500"
     ></div>
-    {{ image }}
   </div>
   <div
     class="flex flex-col justify-start items-start self-stretch flex-grow-0 flex-shrink-0 relative gap-[15px] px-5 py-[30px]"
@@ -187,7 +186,7 @@ defineProps<MaisonRecord>()
             </clipPath>
           </defs>
         </svg>
-        <p class="flex-grow-0 flex-shrink-0 text-xs text-left text-gray-600">{{surface}} mÂ²</p>
+        <p class="flex-grow-0 flex-shrink-0 text-xs text-left text-gray-600">{{surface}} m²</p>
       </div>
     </div>
   </div>
