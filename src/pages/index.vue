@@ -52,6 +52,6 @@ console.log(maisonsListe)
 </script>
 
 <template>
-  <h1 class="text-2xl">Bonjour monde !</h1>
-  <MaisonCard v-bind="maisonsListe[2]"/>
+  <h1 class="text-6xl">OUI</h1>
+  <MaisonCard v-bind="maisonsListe[1]"/>
 </template>
